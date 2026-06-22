@@ -1,3 +1,4 @@
 uuid
 urllib3
 requests >= 2.4.2
+bandit

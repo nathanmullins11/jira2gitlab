@@ -39,6 +39,7 @@ s.keep_alive = False
 
 # Translate types that the json module cannot encode
 def json_encoder(obj):
+    dhash = hashlib.md5()
     if isinstance(obj, set):
         return list(obj)
 
